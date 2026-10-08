@@ -1,0 +1,80 @@
+{
+  "concepts": [
+    {
+      "name": "beacon",
+      "files": [
+        "beacon.h",
+        "lazyc.c"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "output",
+      "files": [
+        "beacon.h",
+        "lazyc.c"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "api",
+      "files": [
+        "beacon.h",
+        "lazyc.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "lazyc",
+      "files": [
+        "lazyc.c",
+        "lazyc.s"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "parse",
+      "files": [
+        "beacon.h",
+        "lazyc.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "error",
+      "files": [
+        "beacon.h",
+        "lazyc.c"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "printf",
+      "files": [
+        "beacon.h",
+        "lazyc.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `api` centralizes 2 files; Antithesis: `beacon` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `api` centralizes 2 files; Antithesis: `error` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `api` centralizes 2 files; Antithesis: `output` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `api` centralizes 2 files; Antithesis: `parse` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `api` centralizes 2 files; Antithesis: `printf` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `beacon` centralizes 2 files; Antithesis: `error` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `beacon` centralizes 2 files; Antithesis: `output` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `beacon` centralizes 2 files; Antithesis: `parse` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `beacon` centralizes 2 files; Antithesis: `printf` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `error` centralizes 2 files; Antithesis: `output` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
